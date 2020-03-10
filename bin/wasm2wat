@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+wasm2wat = require('../src/wasm2wat').wasm2wat;
+wasm2wat(process.argv)

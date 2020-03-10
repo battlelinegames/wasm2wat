@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wasm2wat</title>
+  <style>
+    body {
+      padding: 2rem;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>wasm2wat version 1.0</h1>
+
+  <h2>Usage:</h2>
+  <p>
+    wasm2wat file.wasm<br>
+    Creates a file.wat WebAssembly Text file<br>
+    <br>
+    wasm2wat file.wasm -o watfile.wat<br>
+    Creates a watfile.wat WebAssembly Text file.<br>
+    The -o flag allows you to specify an output file.<br>
+  </p>
+
+  <h2>Flags:</h2>
+  <p>
+    -f Fold into S-Expression syntax<br>
+    -nd --no-debug-names Do not include debug names in WAT<br>
+    -ie --inline-exports Write imports inline<br>
+    -o is followed by an output file name<br>
+  </p>
+
+  <h2>For help please contact:</h2>
+  <p>
+    Rick Battagline<br>
+    rick@battagline.com<br>
+    Twitter: @battagline<br>
+  </p>
+</body>
+
+</html>
