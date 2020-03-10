@@ -1,5 +1,5 @@
 # wasm2wat version 1.0.5
-[More NES Tutorials](https://www.embed.com/nes)
+
 
 ## Usage:
     wasm2wat file.wasm
@@ -20,5 +20,5 @@
     rick@battagline.com
     Twitter: @battagline
     
-https://embed.com/wasm/
-http://wasmbook.com
+[Rick's WebAssembly Playground](https://embed.com/wasm/)
+[WebAssembly Game Development Book](http://wasmbook.com)
