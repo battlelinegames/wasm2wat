@@ -23,7 +23,7 @@
     Rick Battagline
     rick@battagline.com
     Twitter: @battagline
-    [Rick's WASM Playground](https://embed.com/wasm/)
+    [WASM Playground](https://embed.com/wasm/)
     [WebAssembly Game Development Book](http://wasmbook.com)
 
 
