@@ -70,7 +70,7 @@ function wasm2wat(args) {
   }
   var bytes = fs.readFileSync(file);
   var wasm_module = wabt.readWasm(new Uint8Array(bytes), { readDebugNames: debug });
-  var wasm_string = wasm_module.toText({ foldExprs: fold, inlineExport: falinline_exportsse })
+  var wasm_string = wasm_module.toText({ foldExprs: fold, inlineExport: inline_exports })
   console.log(wasm_string)
 
   fs.writeFile(out_file, wasm_string, function (err, file) {
